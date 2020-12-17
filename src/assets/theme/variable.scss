@@ -1,0 +1,171 @@
+.NavbarBG {
+  width: 100%;
+  min-height: 100%;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--off-white);
+  position: absolute;
+}
+.Rectangle-16 {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%;
+  height:520px;
+  border-radius: 16px;
+  box-shadow: 0 3px 80px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
+.Rectangle-17 {
+  opacity: 0.72;
+  background-color: #dceccf;
+}
+.img {
+  width: 50%;
+  height: 40%;
+  margin-left: 10%;
+  margin-top: 20%;
+  object-fit: contain;
+}
+.txt {
+  margin-left: 13%;
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: black;
+}
+.register{
+  width: 100%;
+  height: 29px;
+  margin-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: #393333;
+}
+.pwr {
+  width: 212px;
+  height: 18px;
+  margin-left: 13%;
+  margin-top: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6f7372;
+}
+
+.Rectangle-163 {
+  width: 420px;
+  margin-left: 18%;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px #517336;
+  background-color: var(--white);
+}
+.Rectangle-164 {
+  width: 213px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #517336;
+}
+.Rectangle-21 {
+  width: 71%;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 16%;
+  border-radius: 8px;
+  padding-left: 20px;
+  border: solid 1px #517336;
+  background-color: var(--white);
+}
+.Rectangle-709 {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  float: left;
+  border: solid 1px #517336;
+  background-color: #517336;
+}
+
+.btn {  
+  width: 71%;
+  height: 40px;
+  margin-top: 20px;
+  margin-left:16%;
+  border-radius: 35px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serifserrat;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  background-color: #517336;
+  
+}
+.Or-Sign-in-using {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #393333;
+}
+.Rectangle-161 {
+  width: 18%;
+  height: 10%;
+  font-size: 24px;
+  border-radius: 31px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #ececec;
+  background-color: var(--white);
+}
+.Have-an-Account {
+  // width: 145px;
+  // height: 19px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8f8f8f;
+}
+.Sign-in {
+  width: 63px;
+  height: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #517336;
+}
+
+

@@ -1,0 +1,67 @@
+<section class="NavbarBG">
+  <div class="Rectangle-16 row">
+    <div class="Rectangle-17 col-6">
+      <img src="../../../../assets/images/logo.png" class="img">
+      <p class="txt">COVID-19 TEST</p>
+      <p class="sign_up">Sign Up as an individual user or as a professional and start testing if you are safe from
+        COVID-19.</p>
+      <p class="pwr">Powered by Cnetso Group Ltd </p>
+    </div>
+    <div class="col-6">
+      <p class="register">Register New Account</p>
+      <div class="row">
+        <div class="col-4 Rectangle-163">
+          <ul style="list-style: none;">
+            <li>
+              <a class="Individual" (click)="showPage('individualPage')"
+                [ngClass]="currentPage === 'individualPage' ? 'primary font-medium-2 font-weight-600 active' : 'primary font-medium-2 font-weight-600'">
+                INDIVIDUAL</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 Rectangle-164">
+          <ul style="list-style: none; margin: 0; padding:0; text-align: center;">
+            <li>
+              <a class="Professional" (click)="showPage('professionalPage')"
+                [ngClass]="currentPage === 'professionalPage' ? 'primary font-medium-2 font-weight-600 active' : 'primary font-medium-2 font-weight-600'">
+                PROFESSIONAL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <input class="Rectangle-21" style="margin-top: 20px" type="text" placeholder="Email Address">
+      <input class="Rectangle-21" type="text" placeholder="Password">
+      <input class="Rectangle-21" type="text" placeholder="Confirm Password">
+      <label class="I-accept-Terms-and-conditions-of-GDPR">I accept Terms and conditions of GDPR.
+        <input class="Rectangle-709 " type="checkbox">
+      </label>
+      <button class="btn">SIGN UP</button>
+      <p class="Or-Sign-in-using">Or Sign in using</p>
+      <button class="Rectangle-161" style="color:yellow; margin-left:100px"><i class="fa fa-instagram"></i></button>
+      <button class="Rectangle-161 ml-2" style="color:blue"><i class="fa fa-facebook-f"></i></button>
+      <button class="Rectangle-161 ml-2" style="color:red"><i class="fa fa-google"></i></button>
+      <p class="Have-an-Account">Have an Account?<strong class="Sign-in">SIGN IN</strong></p>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="individualPage" *ngIf="currentPage === 'individualPage'">
+  <div>
+    <div>
+      
+    </div>
+  </div>
+
+</section>
+
+<section id="professionalPage" *ngIf="currentPage === 'professionalPage'">
+  <div>
+    <div>
+      
+    </div>
+
+  </div>
+
+</section>
